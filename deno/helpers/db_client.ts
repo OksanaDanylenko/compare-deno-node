@@ -4,7 +4,7 @@ let db: Database;
 
 export function connect(){
     const client = new MongoClient();
-    client.connectWithUri("mongodb+srv://oksana:fpxUbRLQoE9D63sz@cluster0.hymvn.mongodb.net/?retryWrites=true&w=majority");
+    client.connectWithUri("mongodb+srv://oksana:we32rqwder1q@cluster0.hymvn.mongodb.net/?retryWrites=true&w=majority");
 
     db = client.database("todo-app");
 }
